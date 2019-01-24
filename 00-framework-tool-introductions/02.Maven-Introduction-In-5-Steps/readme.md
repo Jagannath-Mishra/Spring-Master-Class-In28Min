@@ -27,9 +27,19 @@
  - Naming a project
  - Declaring Dependencies
 
-### Step 3 : Maven Build Life Cycle
- - run "mvn clean install" 
- - Build LifeCycle - Validate, Compile, Test, Package, Integration Test, Verify, Install, Deploy
+### Step 3 : Maven Build Life Cycle 
+
+- run "mvn clean install" 
+#### Life Cycle 
+- Validate 
+- Compile
+- Test
+- Package
+- Integration Test
+- Verify
+- Install
+- Deploy
+
  - Convention over Configuration - Pre defined folder structure
 	- Source Code
 		- ${basedir}/src/main/java
