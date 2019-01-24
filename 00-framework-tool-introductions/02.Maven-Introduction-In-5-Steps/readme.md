@@ -29,7 +29,7 @@
 
 ### Step 3 : Maven Build Life Cycle 
 
-- run "mvn clean install" 
+ 
 #### Life Cycle 
 - Validate 
 - Compile
@@ -59,12 +59,14 @@
  - mvn test-compile (compiles test files) - one thing to observe is this also compiles source files
  - mvn clean - deletes target directory
  - mvn test - run unit tests
- - mvn package - creates the jar
-- help:effective-settings
-- help:effective-pom
-- dependency:tree
-- dependency:sources
-- --debug
+ - mvn package - creates the jar in target folder Building jar: D:\Workspace\mockito-demo\target\mockito-demo-0.0.1-SNAPSHOT.jar
+ - mvn clean install  - This will delete target directory and then its build jar and then it will deploy to .M2 Repository.
+ - mvn install - Its build jar and then it will deploy to .M2 Repository
+- help:effective-settings  - All the setting used by maven will be displayed this is for debugging perpose.
+- help:effective-pom - This will display all the hierarchy of different pom parrent and child details.
+- dependency:tree - Display all the jar dependency and their hierarchy. 
+- dependency:sources - Download the source for the jars where its available. 
+- --debug : Display lot more content for each and every command ex : compile --debug
 
 ## Complete Code Example
 
